@@ -149,6 +149,7 @@ Here I set up HTTP calls every 5 seconds. We can see the four markers are shown 
 
  ![alt text](images/img3.png)
 
+You can build the react app by calling `cd react;yarn build` and copy the `react/build` directory into S3.
 
 ##Scripts 
 
