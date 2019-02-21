@@ -1,0 +1,6 @@
+**/.DS_Store
+**/.idea
+react/build
+react/package-lock.json
+react/node-modules
+react/yarn.lock
