@@ -136,7 +136,7 @@ The React application starts by getting data via AWS API gateway. This React app
 ```javascript  
 updateAssets = ()
  => {  
- axios.get('https://r7u9g0nn4g.execute-api.us-east-1.amazonaws.com/default')
+ axios.get('YOUR_AWS_API')
             .then(response => {
                 console.log("Getting data ...\n", response.data);
                 this.setState({assets: response.data});
