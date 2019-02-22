@@ -43,7 +43,7 @@ export class MapContainer extends Component {
     };
 
     updateAssets = () => {
-        axios.get('https://r7u9g0nn4g.execute-api.us-east-1.amazonaws.com/default')
+        axios.get('...')
             .then(response => {
                 console.log("Getting data ...\n", response.data);
                 this.setState({assets: response.data});
@@ -126,5 +126,5 @@ export class MapContainer extends Component {
 
 
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyBgcA0DIl3UzsX5CHxYOTDdCQ5M5iMyDos'
+    apiKey: '...'
 })(MapContainer);
